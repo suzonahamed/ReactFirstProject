@@ -1,37 +1,6 @@
-*{
-    margin:0;
-    padding:0;
+.Child{
+    background-color: blue;
 }
-.todo{
-    background: brown;
-    margin: 10px;
-    padding:2rem;
-    width: 400px;
-    text-align: center;
-    display: inline-block;
-    
-}
-.card{
-    background: #ffda77;
-    box-shadow: 3px 4px 4px blue;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 15px;
-    width: 400px;
-    display: inline-block;
-}
-.head{
-    text-align: center;
-    margin-bottom: 10px;
-    color:black;
-}
-.body{
-    text-align: justify;
-    margin-bottom: 5px;
-}
-.footer{
-    text-align: center;
-    margin-bottom: 5px;
-    font-weight: bold;
-
+.Parent{
+    background-color: brown;
 }

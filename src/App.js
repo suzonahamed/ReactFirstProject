@@ -1,16 +1,13 @@
-import React from 'react';
-import Card from './Card'
-import Data from './Data.json';
+import React from 'react'
+// import Home from './STATE_LIFTING/Home'
+import Parent from './RION_NOW/Parent'
+export default function App() {
 
-
-function App(){ 
-    console.log(Data);
-    return(
-        <div>
-
-            { Data.map((y,index )=> <Card key={index} name={y.title} address={y.body}/>)}
-
-        </div>
-    )
+  
+  return (
+    <div>
+         {/* <Home /> */}
+         <Parent />
+    </div>
+  )
 }
-export default App;
